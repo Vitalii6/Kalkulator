@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History">
+
+    <TextView
+        android:id="@+id/lastoperations"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:onClick="clean"
+        android:text="Clean it!"
+        app:layout_constraintBottom_toBottomOf="@+id/lastoperations"
+         />
+
+</android.support.constraint.ConstraintLayout>
